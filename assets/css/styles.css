@@ -60,10 +60,10 @@ body {
 
 .btn {
   color: inherit;
-  font-family: "retro", sans-serif;
-  font-size: 0.9em;
+  font-family: "retro1", sans-serif;
+  font-size: 1.1em;
   background: white;
-  padding: 0.3rem 1.4rem;
+  padding: 0.7em 1.4rem;
   border: 3px solid black;
   box-shadow: 0 0 0 black;
   transition: all 0.2s;
@@ -780,14 +780,4 @@ input:checked + .slider:before {
 }
 .buttons-hero-container .program-icon-hero:hover {
   transform: scale(1.2);
-}
-
-#about h2 {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.me {
-  width: 140px;
 }/*# sourceMappingURL=styles.css.map */
