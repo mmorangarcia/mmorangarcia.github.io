@@ -168,6 +168,7 @@ body {
     padding-left: 200px;
     font-family: "retro1", sans-serif;
     align-items: flex-start;
+    position: relative;
 
     h2 {
         color: #374054;
@@ -300,7 +301,7 @@ body {
             }
 
             .program-subtitle{
-                font-size: 16px;
+                font-size: 17px;
             }
         }
 
@@ -418,7 +419,7 @@ body {
 
     .program-subtitle{
         font-family: 'retro1-bold', sans-serif;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     h2 {
@@ -436,8 +437,9 @@ body {
 
     li {
         display: inline-grid;
-        padding: 5px 10px;
+        padding: 19px;
         gap: 5px;
+        width: 100px;
 
     }
 
@@ -868,4 +870,14 @@ input:checked+.slider:before {
             transform: scale(1.2);
         }
     }
+}
+
+#about h2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.me{
+    width: 140px;
 }

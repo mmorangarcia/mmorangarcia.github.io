@@ -151,6 +151,7 @@ body {
   padding-left: 200px;
   font-family: "retro1", sans-serif;
   align-items: flex-start;
+  position: relative;
 }
 #about h2 {
   color: #374054;
@@ -263,7 +264,7 @@ body {
   width: 80px;
 }
 #x-education .x-education-block .used-programs .program-subtitle {
-  font-size: 16px;
+  font-size: 17px;
 }
 #x-education .x-education-block h3 {
   font-weight: 500;
@@ -363,7 +364,7 @@ body {
 }
 #skills .program-subtitle {
   font-family: "retro1-bold", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 #skills h2 {
   color: #374054;
@@ -378,8 +379,9 @@ body {
 }
 #skills li {
   display: inline-grid;
-  padding: 5px 10px;
+  padding: 19px;
   gap: 5px;
+  width: 100px;
 }
 
 .program-icon {
@@ -778,4 +780,14 @@ input:checked + .slider:before {
 }
 .buttons-hero-container .program-icon-hero:hover {
   transform: scale(1.2);
+}
+
+#about h2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.me {
+  width: 140px;
 }/*# sourceMappingURL=styles.css.map */
