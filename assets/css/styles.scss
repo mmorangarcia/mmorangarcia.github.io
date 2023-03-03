@@ -269,6 +269,7 @@ body {
         .exp-title{
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
 
         .exp-subtitle{
@@ -278,22 +279,20 @@ body {
 
         .used-programs {
             ul {
-                display: flex;
                 margin: 0 auto;
                 padding: 0;
                 flex-direction: row;
                 justify-content: flex-start;
                 gap: 0;
+                text-align: center;
             }
 
             li{
                 display: inline-grid;
-                margin: 7px;
                 padding: 5px 10px;
-                list-style: none;
-                font-size: 1.3em;
-                justify-items: center;
                 gap: 5px;
+                text-align: center;
+            
             }
 
             .program-icon {
@@ -419,6 +418,7 @@ body {
 
     .program-subtitle{
         font-family: 'retro1-bold', sans-serif;
+        font-size: 15px;
     }
 
     h2 {
@@ -436,11 +436,7 @@ body {
 
     li {
         display: inline-grid;
-        margin: 7px;
         padding: 5px 10px;
-        list-style: none;
-        font-size: 1.3em;
-        justify-items: center;
         gap: 5px;
 
     }
@@ -448,7 +444,7 @@ body {
 }
 
 .program-icon{
-    width: 80px;
+    width: 100px;
 }
 
 .program-icon-container {
