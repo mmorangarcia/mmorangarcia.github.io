@@ -823,7 +823,7 @@ input:checked + .slider:before {
 }
 
 .nightmode {
-  width: 100px;
+  width: 80px;
   text-align: -webkit-center;
   transition: all 0.2s;
 }
