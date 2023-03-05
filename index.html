@@ -11,10 +11,13 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/nightmode.js"></script>
   <link rel="stylesheet" href="assets/css/effects.css">
   <link rel="stylesheet" href="assets/css/retro.css">
+  <script src="https://kit.fontawesome.com/62e22e546e.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="dark"> 
+
   <section id="top" class="hero">
     <div id="hero-overlay">
       <section class="navigation">
@@ -28,22 +31,30 @@
             </i>
           </a>
         </div>
-        <div class="hero-text" id="fadein hero-overlay">
-          <h1>MArtin Morán García</h1>
+          <h1>Martin Morán García</h1>
           <h2>Salesforce Commerce Cloud Developer</h2>
           <br>
           <div class="buttons-hero-container">
+            <div class="nightmode">
+              <input onclick="nightmode()" type="checkbox" class="checkbox" id="chk" />
+              <label class="label" for="chk">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <div class="ball"></div>
+              </label>
+            </div>
             <a href="docs/CV_Martin_Moran_Garcia.pdf" class="btn" download="CV_Martin_Moran_Garcia.pdf">Descargar CV</a>
             <a href="https://www.linkedin.com/in/mmorang/" target="_blank">
               <img class="program-icon-hero" src="assets\img\icons\LinkedIn.png" alt="mmorang - LinkedIn">
             </a>
+            <div class="hero-text" id="fadein hero-overlay">
           </div>
-
         </div>
         
         </div>
       </span>
   </section>
+
   <section id="about">
     <h2 class="heading heading-me">Sobre mi
     </h2>

@@ -22,6 +22,39 @@ body {
   line-height: 1.15;
   font-size: 16px;
 }
+body.dark {
+  background: #292C35;
+}
+body.dark .background-alt {
+  background: #292C35;
+}
+body.dark #about h2 {
+  color: white;
+}
+body.dark #about p {
+  color: white;
+}
+body.dark #skills h2 {
+  color: white;
+}
+body.dark #skills .program-subtitle {
+  color: white;
+}
+body.dark #x-education h2 {
+  color: white;
+}
+body.dark #x-education h3 {
+  color: white;
+}
+body.dark #education h2 {
+  color: white;
+}
+body.dark #education #education-timeline div {
+  background: #292C35;
+}
+body.dark #education #education-timeline h3 {
+  color: white;
+}
 
 .background-alt {
   background: #F5F5F5;
@@ -92,8 +125,7 @@ body {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  bottom: 30px;
-  left: 50%;
+  bottom: 0;
   animation: pulsate 1.4s ease;
   animation-iteration-count: infinite;
   padding-top: 5px;
@@ -783,4 +815,49 @@ input:checked + .slider:before {
 }
 .buttons-hero-container .program-icon-hero:hover {
   transform: scale(1.2);
+}
+
+.nightmode {
+  text-align: -webkit-center;
+  @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+}
+.nightmode * {
+  box-sizing: border-box;
+}
+.nightmode .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.nightmode .label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+.nightmode .label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+.nightmode .checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+.nightmode .fa-moon {
+  color: #f1c40f;
+}
+.nightmode .fa-sun {
+  color: #f39c12;
 }/*# sourceMappingURL=styles.css.map */
