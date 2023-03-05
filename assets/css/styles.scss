@@ -33,44 +33,54 @@ body {
 
         .background-alt {
             background: #292C35;
+            
         }
 
         #about {
             h2 {
                 color: white;
+                
             }
 
             p{
                 color: white;
+                
             }
         }
 
         #skills {
             h2{
                 color: white;
+                
             }
             .program-subtitle{
                 color: white;
+                
             }
         }
         #x-education {
             h2{
                 color: white;
+                
             }
             h3{
                 color: white;
+                
             }
         }
         #education {
             h2{
                 color: white;
+                
             }
             #education-timeline {
                 div{
                     background: #292C35;
+                    
                 }
                 h3{
                     color: white;
+                    
                 }
             }
         }
@@ -82,6 +92,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    transition: all 0.5s;
 }
 
 .shadow {
