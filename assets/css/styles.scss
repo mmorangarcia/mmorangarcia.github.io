@@ -25,10 +25,12 @@ body {
     font-family: 'retro1', sans-serif;
     line-height: 1.15;
     font-size: 16px;
+    transition: all 0.5s;
 
     &.dark {
         background: #292C35;
-
+        transition: all 0.5s;
+        
         .background-alt {
             background: #292C35;
         }
