@@ -1,5 +1,6 @@
 /* General Attributes */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900|Source+Sans+Pro:300,400");
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 @font-face {
   font-family: "retro1-bold";
   src: url("../../libs/fonts/Billy-Bold.ttf") format("opentype");
@@ -824,7 +825,6 @@ input:checked + .slider:before {
 .nightmode {
   width: 100px;
   text-align: -webkit-center;
-  @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 }
 .nightmode * {
   box-sizing: border-box;
