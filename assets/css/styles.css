@@ -822,6 +822,7 @@ input:checked + .slider:before {
 }
 
 .nightmode {
+  width: 100px;
   text-align: -webkit-center;
   @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 }
