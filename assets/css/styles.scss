@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     border: none;
     font-family: 'retro1', sans-serif;
@@ -30,7 +30,7 @@ body {
     &.dark {
         background: #292C35;
         transition: all 0.5s;
-        
+
         .background-alt {
             background: #292C35;
         }
