@@ -400,6 +400,7 @@ body.dark #education #education-timeline h3 {
 #skills {
   padding: 50px 15px;
   text-align: center;
+  transition: all 0.5s;
 }
 #skills .program-subtitle {
   font-family: "retro1-bold", sans-serif;

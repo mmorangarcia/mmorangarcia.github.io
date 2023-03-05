@@ -480,7 +480,8 @@ body {
 #skills {
     padding: 50px 15px;
     text-align: center;
-
+    transition: all 0.5s;
+    
     .program-subtitle{
         font-family: 'retro1-bold', sans-serif;
         font-size: 17px;
