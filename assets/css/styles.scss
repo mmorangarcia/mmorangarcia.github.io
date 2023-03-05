@@ -940,6 +940,10 @@ input:checked+.slider:before {
 .nightmode{
     width: 100px;
     text-align: -webkit-center;
+    transition: all 0.2s;
+    &:hover{
+        transform: scale(1.2);
+    }
 
 
 * {

@@ -825,6 +825,10 @@ input:checked + .slider:before {
 .nightmode {
   width: 100px;
   text-align: -webkit-center;
+  transition: all 0.2s;
+}
+.nightmode:hover {
+  transform: scale(1.2);
 }
 .nightmode * {
   box-sizing: border-box;
