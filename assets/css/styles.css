@@ -806,6 +806,13 @@ input:checked + .slider:before {
 .achievements .x-education-date {
   color: #74808a;
 }
+.achievements a {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #ffffff;
+  display: inline-block;
+  margin: 5px;
+}
 
 .buttons-hero-container {
   display: flex;
