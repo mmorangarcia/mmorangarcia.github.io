@@ -82,6 +82,10 @@ body {
                     color: white;
                     
                 }
+
+                a{
+                    color: white;
+                }
             }
         }
     }
@@ -922,7 +926,7 @@ input:checked+.slider:before {
     a{
         font-size: 1.5em;
         font-weight: 300;
-        color: #ffffff;
+        color: #374054;
         display: inline-block;
         margin: 5px;
     }
