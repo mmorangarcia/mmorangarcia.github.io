@@ -43,7 +43,6 @@ body {
     line-height: 1.15;
     font-size: 16px;
     transition: all 0.5s;
-
     &.dark {
         background: #292C35;
         transition: all 0.5s;
@@ -84,8 +83,38 @@ body {
                 color: white;
                 
             }
+
+            .x-education-block{
+                .more-info{
+                    .down-arrow.floating-arrow{
+                        a{
+                            .more-info-text{
+                                color: #a2a2a2;
+                            }
+                            i{
+                                color: #a2a2a2;
+                            }
+                        }
+                    }
+                    #collapseMoreInfo, #collapseMoreInfo2020, #collapseMoreInfo2022, #collapseMoreInfo2023 {
+                        .card.card-body {
+                            color: #a2a2a2;
+                            font-family: "'retro1'", sans-serif;
+                        }
+                    }
+                }
+            }
+    
         }
         #education {
+            .most-recent{
+                color: #292C35;
+            }
+
+            .education-title .most-recent{
+                color: white;
+            }
+
             h2{
                 color: white;
                 
@@ -104,6 +133,7 @@ body {
                 }
             }
         }
+    
     }
 }
 
@@ -144,7 +174,7 @@ body {
     }
 }
 
-.btn {
+.btn-cm {
     color: inherit;
     font-family: "retro1", sans-serif;
     font-size: 1.1em;
@@ -250,8 +280,8 @@ body {
         width: 10%;
         align-self: center;
         position: absolute;
-        left: 14%;
-        top: 31%;
+        left: 13%;
+        top: 30%;
     }
 
     h2 {
@@ -279,7 +309,7 @@ body {
         margin: 0;
         padding-bottom: 30px;
         padding-right: 11em;
-        font-size: 1.5em;
+        font-size: 1.3em;
         white-space: pre-line;
     }
 }
@@ -288,6 +318,21 @@ body {
 #education {
     padding: 50px 15px;
     text-align: center;
+
+
+    .education-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .most-recent{
+            font-family: 'retro1-bold', sans-serif;
+            color: #374054;
+            padding-top: 8px;
+        }
+    }
 
     h2 {
         color: #374054;
@@ -357,6 +402,48 @@ body {
         text-align: left;
         border-radius: 20px;
 
+        .more-info {
+                .card.card-body{
+                    background: #9c9c9c45;
+                    color: white;
+                    text-align: left;
+                    font-family: "'retro1'", sans-serif;
+                }
+                .down-arrow.floating-arrow {
+                    text-align: center;
+
+                    a {
+                        color: rgba(255, 255, 255, 0.7411764706);
+                        position: unset;
+                        animation: pulsate 1.4s ease;
+                        animation-iteration-count: infinite;
+                        padding-top: 5px;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column-reverse;
+
+                        .more-info-text{
+                            color: #292C35;
+                            font-family: "'retro1'", sans-serif;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        i{
+                            color: #292C35;
+                        }
+                    }
+                }
+                #collapseMoreInfo, #collapseMoreInfo2020{
+                    .card.card-body{
+                        color: #292C35;
+                        font-family: "'retro1'", sans-serif;
+                    }
+                }
+            }
+
         .exp-title{
             display: flex;
             flex-direction: column;
@@ -380,7 +467,7 @@ body {
 
             li{
                 display: inline-grid;
-                padding: 13px;
+                margin: 10px;
                 gap: 5px;
                 text-align: center;
                 width: 100px;
@@ -390,9 +477,11 @@ body {
 
             .program-icon {
                 width: 80px;
+                cursor: pointer;
             }
 
             .program-subtitle{
+                font-family: "'retro1'", sans-serif;
                 font-size: 17px;
             }
         }
@@ -530,7 +619,7 @@ body {
 
     li {
         display: inline-grid;
-        padding: 19px;
+        margin: 19px;
         gap: 5px;
         width: 100px;
 
@@ -540,6 +629,7 @@ body {
 
 .program-icon{
     width: 100px;
+    cursor: pointer;
 }
 
 .program-icon-container {
@@ -872,7 +962,7 @@ input:checked+.slider:before {
 
 /* If the orientation of the screen is Portrait */
 @media only screen and (orientation: Portrait) {
-    .btn {
+    .btn-cm {
         color: inherit;
         font-family: "retro1", sans-serif;
         font-size: 0.9em;
@@ -967,6 +1057,7 @@ input:checked+.slider:before {
 
     .program-icon{
         width: 60px;
+        cursor: pointer;
     }
 }
 
@@ -981,6 +1072,7 @@ input:checked+.slider:before {
         transition: all 0.2s;
         width: 70px;
         &:hover{
+            cursor: pointer;
             transform: scale(1.2);
         }
     }

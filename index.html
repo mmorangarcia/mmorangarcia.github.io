@@ -14,7 +14,9 @@
   <script src="assets/js/nightmode.js"></script>
   <link rel="stylesheet" href="assets/css/effects.css">
   <link rel="stylesheet" href="assets/css/retro.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/62e22e546e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body class="dark"> 
 
@@ -40,7 +42,7 @@
               <img class="program-icon-hero" src="assets\img\icons\LinkedIn.png" alt="mmorang - LinkedIn">
             </a>
             
-            <a href="docs/CV_Martin_Moran_Garcia.pdf" class="btn" download="CV_Martin_Moran_Garcia.pdf">Descargar CV</a>
+            <a href="docs/CV_Martin_Moran_Garcia.pdf" class="btn-cm" download="CV_Martin_Moran_Garcia.pdf">Descargar CV</a>
 
             <div class="nightmode">
               <input onclick="nightmode()" type="checkbox" class="checkbox" id="chk" />
@@ -108,16 +110,6 @@
         <span class="program-subtitle">Bootstrap</span>
         <img class="program-icon" src="assets\img\icons\progress50.png" alt="">
       </li>
-      <li class="program-icon-container">
-        <img class="program-icon" src="assets\img\icons\angular.png" alt="">
-        <span class="program-subtitle">Angular</span>
-        <img class="program-icon" src="assets\img\icons\progress20.png" alt="">
-      </li>
-      <li class="program-icon-container">
-        <img class="program-icon" src="assets\img\icons\typescript.png" alt="">
-        <span class="program-subtitle">Typescript</span>
-        <img class="program-icon" src="assets\img\icons\progress20.png" alt="">
-      </li>
     </ul>
   </div>
 
@@ -171,6 +163,27 @@
           </li>
         </ul>
       </div>
+      <div class="more-info">
+        <div class="down-arrow floating-arrow">
+          <a data-bs-toggle="collapse" href="#collapseMoreInfo2023" role="button" aria-expanded="false"
+            aria-controls="collapseMoreInfo2023">
+            <i class="fa fa-chevron-down" aria-hidden="true">
+            </i>
+            <span class="more-info-text">Más info</span>
+          </a>
+        </div>
+        <div class="collapse" id="collapseMoreInfo2023">
+          <div class="card card-body">
+            -Migración app existente a tecnologia Salesforce<br>
+            -Creación custom apis Salesforce<br>
+            -Customización sercicios Salesforce SCAPI<br>
+            -Gestión Salesforce Commerce Cloud (custom objects, system object types etc.)<br>
+            -Llamadas a servicios SCAPI y OCAPI<br>
+            -Creacion y modificacion de Controladores para el paso de datos entre Front y Back<br>
+            -Creación de documentacion en Confluence
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="x-education-block shadow background-alt">
@@ -206,6 +219,28 @@
             <span class="program-subtitle">SASS</span>
           </li>
         </ul>
+      </div>
+      <div class="more-info">
+        <div class="down-arrow floating-arrow">
+          <a data-bs-toggle="collapse" href="#collapseMoreInfo2022" role="button" aria-expanded="false"
+            aria-controls="collapseMoreInfo2022">
+            <i class="fa fa-chevron-down" aria-hidden="true">
+            </i>
+            <span class="more-info-text">Más info</span>
+          </a>
+        </div>
+        <div class="collapse" id="collapseMoreInfo2022">
+          <div class="card card-body">
+            -Creacion de cartucho para la gestión de los nuevos desarrollos<br>
+            -Gestion del Business Manager (Creacion de Assets y Slots)<br>
+            -Creacion de componentes web y modificacion de estilos existentes a partir de Figma<br>
+            -Creacion y modificacion de Controladores para el paso de datos entre Front y Back<br>
+            -Llamada a servicios<br>
+            -Creación de documentacion en Confluence<br>
+            -Creación archivos de traducción<br>
+            -Creación Attrs personalizados (SOT&COT)
+          </div>
+        </div>
       </div>
     </div>
 
@@ -243,6 +278,23 @@
           </li>
         </ul>
       </div>
+      <div class="more-info">
+        <div class="down-arrow floating-arrow">
+          <a data-bs-toggle="collapse" href="#collapseMoreInfo2020" role="button" aria-expanded="false"
+            aria-controls="collapseMoreInfo2020">
+            <i class="fa fa-chevron-down" aria-hidden="true">
+            </i>
+            <span class="more-info-text">Más info</span>
+          </a>
+        </div>
+        <div class="collapse" id="collapseMoreInfo2020">
+          <div class="card card-body">
+            -Creacion de cartucho para la gestión de los nuevos desarrollos<br>
+            -Gestion del Business Manager (Creacion de Assets y Slots)<br>
+            -Creacion de componentes web y modificacion de estilos existentes
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="x-education-block shadow background-alt">
@@ -274,8 +326,24 @@
           </li>
         </ul>
       </div>
+      <div class="more-info">
+          <div class="down-arrow floating-arrow">
+            <a data-bs-toggle="collapse" href="#collapseMoreInfo" role="button" aria-expanded="false"
+              aria-controls="collapseMoreInfo">
+              <i class="fa fa-chevron-down" aria-hidden="true">
+              </i>
+              <span class="more-info-text">Más info</span>
+            </a>
+          </div>
+        <div class="collapse" id="collapseMoreInfo">
+          <div class="card card-body">
+            -Desarrollo de componente y vista "iframe"<br>
+            -Creación de documentos funcionales<br>
+            -Integración de servicios Back
+          </div>
+        </div>
+      </div>
     </div>
-
   </div>
 
   <div id="education" class="background-alt">
@@ -298,8 +366,10 @@
   </div>
 
   <div id="education" class="background-alt">
-    <h2 class="heading">Cursos
-    </h2>
+    <div class="education-title">
+      <h2 class="heading">Cursos</h2><span class="most-recent">(Más recientes)</span>
+    </div>
+
     <div id="education-timeline">
       <div class="achievements shadow">
         <a href="docs/salesforceUdemy.pdf" download="salesforceUdemy.pdf">Salesforce Commerce Cloud 201 - Intermedio</a>

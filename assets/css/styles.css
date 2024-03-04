@@ -67,6 +67,22 @@ body.dark #x-education h2 {
 body.dark #x-education h3 {
   color: white;
 }
+body.dark #x-education .x-education-block .more-info .down-arrow.floating-arrow a .more-info-text {
+  color: #a2a2a2;
+}
+body.dark #x-education .x-education-block .more-info .down-arrow.floating-arrow a i {
+  color: #a2a2a2;
+}
+body.dark #x-education .x-education-block .more-info #collapseMoreInfo .card.card-body, body.dark #x-education .x-education-block .more-info #collapseMoreInfo2020 .card.card-body, body.dark #x-education .x-education-block .more-info #collapseMoreInfo2022 .card.card-body, body.dark #x-education .x-education-block .more-info #collapseMoreInfo2023 .card.card-body {
+  color: #a2a2a2;
+  font-family: "'retro1'", sans-serif;
+}
+body.dark #education .most-recent {
+  color: #292C35;
+}
+body.dark #education .education-title .most-recent {
+  color: white;
+}
 body.dark #education h2 {
   color: white;
 }
@@ -116,7 +132,7 @@ body.dark #education #education-timeline a {
   background: #db8e35;
 }
 
-.btn {
+.btn-cm {
   color: inherit;
   font-family: "retro1", sans-serif;
   font-size: 1.1em;
@@ -129,10 +145,10 @@ body.dark #education #education-timeline a {
   border-radius: 50px;
   text-decoration: none;
 }
-.btn:hover {
+.btn-cm:hover {
   transform: scale(1.2);
 }
-.btn:last-child {
+.btn-cm:last-child {
   margin: 0;
   text-decoration: none;
 }
@@ -213,8 +229,8 @@ body.dark #education #education-timeline a {
   width: 10%;
   align-self: center;
   position: absolute;
-  left: 14%;
-  top: 31%;
+  left: 13%;
+  top: 30%;
 }
 #about h2 {
   color: #374054;
@@ -239,7 +255,7 @@ body.dark #education #education-timeline a {
   margin: 0;
   padding-bottom: 30px;
   padding-right: 11em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   white-space: pre-line;
 }
 
@@ -247,6 +263,18 @@ body.dark #education #education-timeline a {
 #education {
   padding: 50px 15px;
   text-align: center;
+}
+#education .education-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#education .education-title .most-recent {
+  font-family: "retro1-bold", sans-serif;
+  color: #374054;
+  padding-top: 8px;
 }
 #education h2 {
   color: #374054;
@@ -306,6 +334,40 @@ body.dark #education #education-timeline a {
   text-align: left;
   border-radius: 20px;
 }
+#x-education .x-education-block .more-info .card.card-body {
+  background: rgba(156, 156, 156, 0.2705882353);
+  color: white;
+  text-align: left;
+  font-family: "'retro1'", sans-serif;
+}
+#x-education .x-education-block .more-info .down-arrow.floating-arrow {
+  text-align: center;
+}
+#x-education .x-education-block .more-info .down-arrow.floating-arrow a {
+  color: rgba(255, 255, 255, 0.7411764706);
+  position: unset;
+  animation: pulsate 1.4s ease;
+  animation-iteration-count: infinite;
+  padding-top: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+#x-education .x-education-block .more-info .down-arrow.floating-arrow a .more-info-text {
+  color: #292C35;
+  font-family: "'retro1'", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+#x-education .x-education-block .more-info .down-arrow.floating-arrow a i {
+  color: #292C35;
+}
+#x-education .x-education-block .more-info #collapseMoreInfo .card.card-body, #x-education .x-education-block .more-info #collapseMoreInfo2020 .card.card-body {
+  color: #292C35;
+  font-family: "'retro1'", sans-serif;
+}
 #x-education .x-education-block .exp-title {
   display: flex;
   flex-direction: column;
@@ -325,7 +387,7 @@ body.dark #education #education-timeline a {
 }
 #x-education .x-education-block .used-programs li {
   display: inline-grid;
-  padding: 13px;
+  margin: 10px;
   gap: 5px;
   text-align: center;
   width: 100px;
@@ -333,8 +395,10 @@ body.dark #education #education-timeline a {
 }
 #x-education .x-education-block .used-programs .program-icon {
   width: 80px;
+  cursor: pointer;
 }
 #x-education .x-education-block .used-programs .program-subtitle {
+  font-family: "'retro1'", sans-serif;
   font-size: 17px;
 }
 #x-education .x-education-block h3 {
@@ -451,13 +515,14 @@ body.dark #education #education-timeline a {
 }
 #skills li {
   display: inline-grid;
-  padding: 19px;
+  margin: 19px;
   gap: 5px;
   width: 100px;
 }
 
 .program-icon {
   width: 100px;
+  cursor: pointer;
 }
 
 .program-icon-container {
@@ -775,7 +840,7 @@ input:checked + .slider:before {
 }
 /* If the orientation of the screen is Portrait */
 @media only screen and (orientation: Portrait) {
-  .btn {
+  .btn-cm {
     color: inherit;
     font-family: "retro1", sans-serif;
     font-size: 0.9em;
@@ -855,6 +920,7 @@ input:checked + .slider:before {
 }
 .achievements .program-icon {
   width: 60px;
+  cursor: pointer;
 }
 
 .buttons-hero-container {
@@ -869,6 +935,7 @@ input:checked + .slider:before {
   width: 70px;
 }
 .buttons-hero-container .program-icon-hero:hover {
+  cursor: pointer;
   transform: scale(1.2);
 }
 
