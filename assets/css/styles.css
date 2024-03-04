@@ -188,6 +188,9 @@ body.dark #education #education-timeline a {
   bottom: 0;
   left: 0;
 }
+.hero #hero-overlay h1 {
+  padding-top: 2%;
+}
 .hero .hero-text {
   position: absolute;
   z-index: 10;
