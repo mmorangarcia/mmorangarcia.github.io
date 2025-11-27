@@ -59,7 +59,7 @@ body.dark #skills h2 {
   color: white;
 }
 body.dark #skills .program-subtitle {
-  color: white;
+  color: #1a1a1a;
 }
 body.dark #x-education h2 {
   color: white;
@@ -113,16 +113,20 @@ body.dark #education #education-timeline a {
 }
 
 .heading {
-  padding-top: 1rem;
   position: relative;
   display: inline-block;
   font-family: "retro1", sans-serif;
   font-size: 2.6em;
   font-weight: 300;
   margin: 0;
-  width: 100%;
   text-align: -webkit-center;
   color: white;
+}
+.heading#about-me-title {
+  padding-top: 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: -webkit-center;
 }
 .heading:after {
   position: absolute;
@@ -501,6 +505,14 @@ body.dark #education #education-timeline a {
   text-align: center;
   transition: all 0.5s;
 }
+#skills .skills-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-self: center;
+  background: #d1d1cd;
+  border-radius: 30px;
+  padding: 1rem;
+}
 #skills .program-subtitle {
   font-family: "retro1-bold", sans-serif;
   font-size: 17px;
@@ -510,11 +522,12 @@ body.dark #education #education-timeline a {
   margin-bottom: 30px;
 }
 #skills ul {
+  display: flex;
   margin: 0 auto;
   padding: 0;
   flex-direction: row;
-  justify-content: center;
   gap: 20px;
+  align-items: center;
 }
 #skills li {
   display: inline-grid;

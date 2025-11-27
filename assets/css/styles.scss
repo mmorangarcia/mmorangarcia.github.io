@@ -1,4 +1,6 @@
 /* General Attributes */
+@use 'variables';
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,900|Source+Sans+Pro:300,400');
 
 @font-face {
@@ -44,11 +46,11 @@ body {
     font-size: 16px;
     transition: all 0.5s;
     &.dark {
-        background: #292C35;
+        background: variables.$black-light-custom;
         transition: all 0.5s;
 
         .background-alt {
-            background: #292C35;
+            background: variables.$black-light-custom;
             
         }
 
@@ -70,7 +72,7 @@ body {
                 
             }
             .program-subtitle{
-                color: white;
+                color: #1a1a1a;
                 
             }
         }
@@ -108,7 +110,7 @@ body {
         }
         #education {
             .most-recent{
-                color: #292C35;
+                color: variables.$black-light-custom;
             }
 
             .education-title .most-recent{
@@ -121,7 +123,7 @@ body {
             }
             #education-timeline {
                 div{
-                    background: #292C35;
+                    background: variables.$black-light-custom;
                 }
                 h3{
                     color: white;
@@ -154,16 +156,21 @@ body {
 }
 
 .heading {
-    padding-top: 1rem;
     position: relative;
     display: inline-block;
     font-family: 'retro1', sans-serif;
     font-size: 2.6em;
     font-weight: 300;
     margin: 0;
-    width: 100%;
     text-align: -webkit-center;
     color: white;
+
+    &#about-me-title {
+    padding-top: 1rem;
+    display: inline-block;
+    width: 100%;
+    text-align: -webkit-center;
+    }
 
     &:after {
         position: absolute;
@@ -603,6 +610,14 @@ body {
     text-align: center;
     transition: all 0.5s;
 
+    .skills-container {
+            width: fit-content;
+            justify-self: center;
+            background: variables.$white-custom;
+            border-radius: 30px;
+            padding: 1rem;
+        }
+
     .program-subtitle{
         font-family: 'retro1-bold', sans-serif;
         font-size: 17px;
@@ -614,11 +629,12 @@ body {
     }
 
     ul {
+        display: flex;
         margin: 0 auto;
         padding: 0;
         flex-direction: row;
-        justify-content: center;
         gap: 20px;
+        align-items: center;
     }
 
     li {
