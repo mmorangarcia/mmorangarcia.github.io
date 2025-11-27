@@ -113,12 +113,16 @@ body.dark #education #education-timeline a {
 }
 
 .heading {
+  padding-top: 1rem;
   position: relative;
   display: inline-block;
   font-family: "retro1", sans-serif;
   font-size: 2.6em;
   font-weight: 300;
   margin: 0;
+  width: 100%;
+  text-align: -webkit-center;
+  color: white;
 }
 .heading:after {
   position: absolute;
@@ -222,18 +226,14 @@ body.dark #education #education-timeline a {
 #about {
   display: flex;
   margin: 0 auto;
-  padding: 75px 5px;
+  padding: 25px 5px;
   padding-left: 200px;
   font-family: "retro1", sans-serif;
   align-items: flex-start;
-  position: relative;
+  justify-content: space-between;
 }
 #about .profile-pic {
   width: 10%;
-  align-self: center;
-  position: absolute;
-  left: 13%;
-  top: 30%;
 }
 #about h2 {
   color: #374054;
