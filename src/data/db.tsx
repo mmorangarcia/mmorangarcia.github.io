@@ -31,41 +31,68 @@ export const skills: Icon[] = skillsBase.map((skill) => ({
 
 export const projects: Project[] = [
   {
-    title: "Full Stack Developer - Boolea",
+    title: "Full-Stack Salesforce Commerce Developer - Boolea",
     period: "2023 - 2026",
     description: (
       <>
-        Migración APP existente a Salesforce Commerce consumiendo endpoints de 
-         <strong> SCAPI</strong>, <strong>OCAPI</strong> y custom. <br/> Manejo y edición
-        de endpoints de SCAPI y OCAPI. <br/> Customización servicios SCAPI mediante
-        hooks. <br/> Gestión del <strong>Business Manager</strong> de Salesforce
-        Commerce Cloud (custom objects, system object types, catalogs, pricebooks
-        etc.). <br/> Creación de jobs. <br/> Creación y modificación de Controladores para el
-        paso de datos entre Front y Back. <br/> Creación de documentación en
+        Migración APP existente a Salesforce Commerce consumiendo endpoints de
+        <strong> SCAPI</strong>, <strong>OCAPI</strong> y custom. <br /> Manejo
+        y edición de endpoints de SCAPI y OCAPI. <br /> Customización servicios
+        SCAPI mediante hooks. <br /> Gestión del{" "}
+        <strong>Business Manager</strong> de Salesforce Commerce Cloud (custom
+        objects, system object types, catalogs, pricebooks etc.). <br />{" "}
+        Creación de jobs. <br /> Creación y modificación de Controladores para
+        el paso de datos entre Front y Back. <br /> Creación de documentación en
         Confluence.
       </>
     ),
     color: "#5196fd",
   },
   {
-    title: "Full Stack Developer - Seidor",
+    title: "Full-Stack Salesforce Commerce Developer - Seidor",
     period: "2022 - 2023",
-    description:
-      "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément.",
+    description: (
+      <>
+        Creacion de cartucho para la gestión de los nuevos desarrollos
+        <br />
+        Gestion del <strong>Business Manager</strong> (Creacion de{" "}
+        <strong>Assets y Slots</strong>) <br />
+        Creacion de <strong>componentes web</strong> y modificacion de estilos
+        existentes a partir de <strong>Figma</strong> <br />
+        Creacion y modificacion de <strong>Controllers</strong> para el paso de
+        datos entre
+        <strong> Front y Back</strong> <br />
+        Llamada a <strong>servicios</strong> <br />
+        Creación de documentacion en <strong>Confluence</strong>
+        <br />
+        Creación <strong>archivos de traducción</strong> <br />
+        Creación <strong>Attrs personalizados (SOT&COT)</strong>
+      </>
+    ),
     color: "#8f89ff",
   },
   {
-    title: "Front-End Salesforce CC Developer - Capgemini",
+    title: "Front-End Salesforce Commerce Developer - Capgemini",
     period: "2020 - 2022",
-    description:
-      "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal.",
+    description: (
+      <>
+        Creacion de <strong>catridges</strong> para la gestión de los nuevos desarrollos <br />
+        Gestion del <strong>Business Manager</strong> (Creacion de <strong>Assets y Slots</strong>) <br />
+        Creacion de <strong>componentes web</strong> y modificacion de <strong>estilos</strong> existentes
+      </>
+    ),
     color: "#13006c",
   },
   {
     title: "Front-End Developer - Capgemini",
     period: "2018 - 2020",
-    description:
-      "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
+    description: (
+      <>
+        Desarrollo de componente y vista "iframe" <br />
+        Creación de documentos funcionales <br />
+        Integración de servicios Back
+      </>
+    ),
     color: "#ed649e",
   },
 ];
