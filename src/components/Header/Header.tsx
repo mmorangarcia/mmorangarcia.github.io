@@ -9,9 +9,9 @@ export default function Header() {
         src={`${import.meta.env.BASE_URL}images/profile.png`}
         alt="Bootstrap"
       />
-      <p className="text-center pt-2 text-4xl font-bold">
+      <span className="text-center pt-2 text-3xl font-bold">
         <NameTitle label="Martin Morán García" />
-      </p>
+      </span>
     </div>
   ); 
 }

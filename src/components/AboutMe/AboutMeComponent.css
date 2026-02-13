@@ -38,7 +38,6 @@
   flex: 0 0 25%;
   min-width: 0;
   align-self: stretch;
-  background-color: var(--black);
 }
 
 .curriculum-container .content {
