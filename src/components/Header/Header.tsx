@@ -13,5 +13,5 @@ export default function Header() {
         <NameTitle label="Martin Morán García" />
       </p>
     </div>
-  );
+  ); 
 }
