@@ -1,5 +1,4 @@
 .skills-title {
-  text-align: center;
   padding: 1rem;
   font-size: 2rem;
   font-weight: 600;
@@ -17,10 +16,4 @@
 
 .skills-section{
     width: 100%;
-}
-
-@media only screen and (max-width: 1500px) {
-  .skills-container {
-    /* width: 90vw; */
-  }
 }

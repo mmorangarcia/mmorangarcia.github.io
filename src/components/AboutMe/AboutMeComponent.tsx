@@ -3,7 +3,7 @@ import "./AboutMeComponent.css";
 export default function AboutMeComponent() {
   return (
     <>
-      <section className="about-me-section">
+      <section className="about-me-section p-2">
         <h1 className="about-me-title">Sobre Mi</h1>
         <div className="about-me-container">
           <span className="text-2xl text-(--black)">
