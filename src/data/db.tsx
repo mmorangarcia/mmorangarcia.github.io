@@ -46,7 +46,7 @@ export const projects: Project[] = [
         Confluence.
       </>
     ),
-    color: "#5196fd",
+    id: "boolea"
   },
   {
     title: "Full-Stack Salesforce Commerce Developer - Seidor",
@@ -69,7 +69,7 @@ export const projects: Project[] = [
         Creación <strong>Attrs personalizados (SOT&COT)</strong>
       </>
     ),
-    color: "#8f89ff",
+    id: "seidor"
   },
   {
     title: "Front-End Salesforce Commerce Developer - Capgemini",
@@ -81,7 +81,7 @@ export const projects: Project[] = [
         Creacion de <strong>componentes web</strong> y modificacion de <strong>estilos</strong> existentes
       </>
     ),
-    color: "#13006c",
+    id: "capgemini-sf"
   },
   {
     title: "Front-End Developer - Capgemini",
@@ -93,6 +93,6 @@ export const projects: Project[] = [
         Integración de servicios Back
       </>
     ),
-    color: "#ed649e",
+    id: "capgemini"
   },
 ];

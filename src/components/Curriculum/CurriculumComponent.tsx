@@ -2,20 +2,22 @@ import { skills } from "@/data/db";
 import SkillsComponent from "../Skills/SkillsComponent";
 import Header from "../Header/Header";
 import AboutMeComponent from "../AboutMe/AboutMeComponent";
-import Experience from "../ExperienceComponent/Experience";
+import CoursesComponent from "../Courses/CoursesComponent";
+import ExperienceComponent from "../Experience/ExperienceComponent";
 
 export default function CurriculumComponent() {
   return (
     <>
       <div className="curriculum-container">
-        <div className="header">
+        <div className="header bg-amber-100">
           <Header />
         </div>
 
         <div className="content">
           <AboutMeComponent />
           <SkillsComponent skillsIcons={skills} />
-          <Experience />
+          <ExperienceComponent />
+          {/* <CoursesComponent /> */}
         </div>
       </div>
     </>

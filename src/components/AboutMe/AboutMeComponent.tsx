@@ -6,7 +6,7 @@ export default function AboutMeComponent() {
       <section className="about-me-section">
         <h1 className="about-me-title">Sobre Mi</h1>
         <div className="about-me-container">
-          <span className="text-3xl text-(--black)">
+          <span className="text-2xl text-(--black)">
             Desarrollador <b>Frontend</b> y <b>Backend</b> con 6 años de
             experiencia en
             <b> Salesforce Commerce Cloud</b>. <br />

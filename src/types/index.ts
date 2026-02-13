@@ -1,4 +1,3 @@
-import { MotionValue } from "motion/react";
 import type { ReactNode } from "react";
 
 export type Icon = {
@@ -9,16 +8,9 @@ export type Icon = {
   title: string;
 };
 
-export interface Project {
+export type Project = {
   title: string;
   description: ReactNode;
-  color: string;
   period: string;
-}
-
-export interface CardProps extends Project {
-  i: number;
-  progress: MotionValue<number>;
-  range: [number, number];
-  targetScale: number;
+  id: string;
 }
