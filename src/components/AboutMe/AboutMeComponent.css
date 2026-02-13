@@ -1,0 +1,48 @@
+.about-me-title {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-me-container {
+  background-color: var(--white);
+  margin: auto;
+  border-radius: 20px;
+  justify-items: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about-me-section {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .curriculum-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.curriculum-container {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.curriculum-container .header {
+  flex: 0 0 25%;
+  min-width: 0;
+  align-self: stretch;
+  background-color: var(--black);
+}
+
+.curriculum-container .content {
+  flex: 1 1 75%;
+  min-width: 0;
+  padding: 2rem;
+}
