@@ -1,5 +1,5 @@
 import type { Project } from "@/types";
-import SpotlightCard from "../SpotlightCard";
+import SpotlightCard from "./SpotlightCard";
 
 type ProjectProps = {
   project: Project;

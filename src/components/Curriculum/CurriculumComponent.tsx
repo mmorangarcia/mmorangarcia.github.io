@@ -9,7 +9,7 @@ export default function CurriculumComponent() {
   return (
     <>
       <div className="curriculum-container">
-        <div className="header bg-amber-100">
+        <div className="header bg-(--white)">
           <Header />
         </div>
 
