@@ -35,7 +35,7 @@ export const projects: Project[] = [
     period: "2023 - 2026",
     description: (
       <>
-        Migración APP existente a Salesforce Commerce consumiendo endpoints de
+        Migración APP existente a <strong>Salesforce Commerce</strong> consumiendo endpoints de
         <strong> SCAPI</strong>, <strong>OCAPI</strong> y custom. <br /> Manejo
         y edición de endpoints de SCAPI y OCAPI. <br /> Customización servicios
         SCAPI mediante hooks. <br /> Gestión del{" "}
@@ -53,9 +53,9 @@ export const projects: Project[] = [
     period: "2022 - 2023",
     description: (
       <>
-        Creacion de cartucho para la gestión de los nuevos desarrollos
+        Creación de <strong>catridges</strong> para la gestión de los nuevos desarrollos
         <br />
-        Gestion del <strong>Business Manager</strong> (Creacion de{" "}
+        Gestión del <strong>Business Manager</strong> (Creacion de{" "}
         <strong>Assets y Slots</strong>) <br />
         Creacion de <strong>componentes web</strong> y modificacion de estilos
         existentes a partir de <strong>Figma</strong> <br />
@@ -88,9 +88,10 @@ export const projects: Project[] = [
     period: "2018 - 2020",
     description: (
       <>
-        Desarrollo de componente y vista "iframe" <br />
-        Creación de documentos funcionales <br />
-        Integración de servicios Back
+        Desarrollo de <strong>componente</strong> y vista "iframe" <br />
+        Creación de <strong>documentos funcionales</strong> <br />
+        Integración de <strong>servicios Back</strong> <br />
+        Desarrollo Front-End con <strong>Angular 10</strong>
       </>
     ),
     id: "capgemini"
