@@ -3,7 +3,9 @@ import NameTitle from "../VariableProximityComponent/NameTitle";
 import "./Header.css";
 import { GiPositionMarker } from "react-icons/gi";
 import { IoIosMail } from "react-icons/io";
-import { FaPhoneAlt, FaCloudDownloadAlt, FaBook } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { courses, certifications } from "@/data/db";
+import CourseComponent from "./CourseComponent";
 
 export default function Header() {
   return (
@@ -58,35 +60,23 @@ export default function Header() {
           className="custom-spotlight-card"
           spotlightColor="rgba(0, 229, 255, 0.2)"
         >
-          <div>
-            <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-              <FaCloudDownloadAlt size={18} />
-              <a
-                href="/docs/Salesforce_Certified_B2C_Martin_Moran.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-bold underline underline-offset-1 hover:cursor-pointer"
-              >
-                Salesforce Commerce Cloud Developer
-              </a>
-            </span>
-            <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-              <FaBook size={18} />
-              <span className="text-xs font-bold ">Inglés B2.2 Curso EOI</span>
-            </span>
-            <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-              <FaBook size={18} />
-              <span className="text-xs font-bold ">
-                Certificación Inglés B1 EOI
-              </span>
-            </span>
-            <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-              <FaBook size={18} />
-              <span className="text-xs font-bold ">
-                Grado Superior Desarrollo de Aplicaciones Multiplataforma
-              </span>
-            </span>
-          </div>
+          {certifications.map((certifications) => (
+            <CourseComponent data={certifications} />
+          ))}
+        </SpotlightCard>
+      </div>
+
+      <div className="header-containers">
+        <h1 className="personal-data-title text-(--black)">
+          Cursos (Más recientes)
+        </h1>
+        <SpotlightCard
+          className="custom-spotlight-card"
+          spotlightColor="rgba(0, 229, 255, 0.2)"
+        >
+          {courses.map((data) => (
+            <CourseComponent data={data} />
+          ))}
         </SpotlightCard>
       </div>
     </>

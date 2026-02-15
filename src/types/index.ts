@@ -14,3 +14,9 @@ export type Project = {
   period: string;
   id: string;
 }
+
+export type ExpData = {
+  title: string;
+  href: string;
+  download: boolean;
+}
