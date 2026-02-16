@@ -17,12 +17,6 @@ export const skillsBase: Icon[] = [
   { src: "", alt: "Postman", name: "postman", title: "Postman" },
   { src: "", alt: "SASS", name: "sass", title: "SASS" },
   { src: "", alt: "JavaScript", name: "js", title: "JavaScript" },
-  {
-    src: "",
-    alt: "Salesforce Lightning Web Components",
-    name: "lwc",
-    title: "Salesforce LWC",
-  },
 ];
 
 export const skills: Icon[] = skillsBase.map((skill) => ({
