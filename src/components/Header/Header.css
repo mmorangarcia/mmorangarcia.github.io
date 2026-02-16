@@ -4,17 +4,31 @@
   margin: 0 auto;
 }
 
-.header-containers{
+.header-containers {
   padding: 1.5rem;
 }
-.eb-button-container{
+
+.eb-button-container {
   transition: all .3s;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(49, 49, 49, 0.2) 0px -3px 0px inset;
 }
 
 .eb-button-container:hover {
-    filter: saturate(1.5);
-    background-color: #b19eef1a;
-    transition: all .3s;
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px #b19eef1a;
+  filter: saturate(1.5);
+  background-color: #b19eef1a;
+  transition: all .3s;
+  transform: scale(1.1);
+}
+
+.connect-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .connect-buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }

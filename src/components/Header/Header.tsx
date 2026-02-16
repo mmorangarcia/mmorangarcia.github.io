@@ -6,7 +6,6 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt, FaLinkedin, FaCloudDownloadAlt } from "react-icons/fa";
 import { courses, certifications } from "@/data/db";
 import CourseComponent from "./CourseComponent";
-import ElectricBorder from "../ElectricBorder";
 
 export default function Header() {
   return (
@@ -25,43 +24,34 @@ export default function Header() {
             <NameTitle label="Martin Morán García" />
           </span>
 
-<div className="flex justify-between">
-<ElectricBorder
-            color="#7df9ff"
-            speed={1}
-            chaos={0.07}
-            style={{ borderRadius: 14, width: "fit-content" }}
-          >
-            <button className="hover:cursor-pointer" onClick={() => window.open("https://www.linkedin.com/in/mmorang/")}>
+          <div className="connect-buttons flex justify-between">
+            <button
+              className="hover:cursor-pointer"
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/mmorang/")
+              }
+            >
               <div
                 style={{ opacity: 0.8 }}
-                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[#7df9ff] hover:cursor-pointer"
+                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[--white] hover:cursor-pointer"
               >
                 <FaLinkedin size={30} />
                 <p className="text-xl">LinkedIn</p>
               </div>
             </button>
-          </ElectricBorder>
-
-          <ElectricBorder
-            color="#7df9ff"
-            speed={1}
-            chaos={0.07}
-            style={{ borderRadius: 14, width: "fit-content" }}
-          >
-            <button className="hover:cursor-pointer" onClick={() => window.open("/docs/cv_Martin_Moran.pdf","_blank")}>
+            <button
+              className="hover:cursor-pointer"
+              onClick={() => window.open("/docs/cv_Martin_Moran.pdf", "_blank")}
+            >
               <div
                 style={{ opacity: 0.8 }}
-                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[#7df9ff] hover:cursor-pointer"
+                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[--white] hover:cursor-pointer"
               >
                 <FaCloudDownloadAlt size={30} />
                 <p className="text-md">Descargar CV</p>
               </div>
             </button>
-          </ElectricBorder>
-</div>
-          
-          
+          </div>
         </SpotlightCard>
       </div>
       <div className="header-containers">
