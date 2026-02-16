@@ -10,14 +10,14 @@ export default function CourseComponent({ data }: CoursesProps) {
     <div>
       {!data.download ? (
         <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-          <FaBook size={18} />
+          <FaBook size={20} />
           <span className="text-xs font-bold ">
             {data.title}
           </span>
         </span>
       ) : (
         <span className="pt-2 text-2xl font-bold flex items-center gap-4">
-          <FaCloudDownloadAlt size={18} />
+          <FaCloudDownloadAlt size={20} />
           <a
             href={data.href}
             target="_blank"

@@ -7,3 +7,14 @@
 .header-containers{
   padding: 1.5rem;
 }
+.eb-button-container{
+  transition: all .3s;
+}
+
+.eb-button-container:hover {
+    filter: saturate(1.5);
+    background-color: #b19eef1a;
+    transition: all .3s;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #b19eef1a;
+}
