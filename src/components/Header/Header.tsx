@@ -61,21 +61,21 @@ export default function Header() {
           spotlightColor="rgba(0, 229, 255, 0.2)"
         >
           {certifications.map((certifications) => (
-            <CourseComponent data={certifications} />
+            <CourseComponent key={certifications.id} data={certifications} />
           ))}
         </SpotlightCard>
       </div>
 
       <div className="header-containers">
-        <h1 className="personal-data-title text-(--black)">
-          Cursos (Más recientes)
+        <h1 className="personal-data-title text-(--black) flex gap-1 items-center">
+          Cursos <span className="text-[1rem]">(Más recientes)</span>
         </h1>
         <SpotlightCard
           className="custom-spotlight-card"
           spotlightColor="rgba(0, 229, 255, 0.2)"
         >
           {courses.map((data) => (
-            <CourseComponent data={data} />
+            <CourseComponent key={data.id} data={data} />
           ))}
         </SpotlightCard>
       </div>

@@ -19,4 +19,5 @@ export type ExpData = {
   title: string;
   href: string;
   download: boolean;
+  id: string;
 }

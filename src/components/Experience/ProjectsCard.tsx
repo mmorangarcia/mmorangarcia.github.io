@@ -16,7 +16,7 @@ export default function ProjectsCard({ project }: ProjectProps) {
             <h1 className="text-3xl pb-5 font-bold">{project.title}</h1>
             <p>{project.period}</p>
           </section>
-          <p>{project.description}</p>
+          <span>{project.description}</span>
         </SpotlightCard>
       </div>
     </>

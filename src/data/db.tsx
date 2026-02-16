@@ -130,51 +130,61 @@ export const courses: ExpData[] = [
     title: "Salesforce Commerce Cloud 303 - POD Alerts Cartridge",
     href: "/docs/salesforceUdemy2.pdf",
     download: true,
+    id: "sfcc303",
   },
   {
     title: "Salesforce Commerce Cloud 201- Intermedio",
     href: "/docs/salesforceUdemy.pdf",
     download: true,
+    id: "sfcc201",
   },
   {
     title: "SFCC Developer Certification Path by Jorge Hernandez",
     href: "",
     download: false,
+    id: "SFCCJorgeH",
   },
   {
     title: "Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap",
     href: "/docs/mastercss.pdf",
     download: true,
+    id: "mastercss",
   },
   {
     title: "Diseño Web con HTML5 + CSS 30h",
     href: "/docs/_cursoGL.pdf",
     download: true,
+    id: "_cursoGL",
   },
   {
     title: "Programación con JavaScript",
     href: "/docs/js40h.pdf",
     download: true,
+    id: "js40h",
   },
   {
     title: "Javascript Moderno: Guía para dominar el lenguaje",
     href: "",
     download: false,
+    id: "JSModerno",
   },
   {
     title: "Curso CSS",
     href: "",
     download: false,
+    id: "CSS1",
   },
   {
     title: "Curso Ionic",
     href: "",
     download: false,
+    id: "Ionic1",
   },
   {
     title: "Curso Angular 10",
     href: "",
     download: false,
+    id: "Angular10_1",
   },
 ];
 
@@ -183,20 +193,24 @@ export const certifications: ExpData[] = [
     title: "Salesforce Commerce Cloud Developer",
     href: "docs/Salesforce_Certified_B2C_Martin_Moran.pdf",
     download: true,
+    id: "",
   },
   {
     title: "Inglés B2.2 Curso EOI",
     href: "",
     download: false,
+    id: "Ingles_B2",
   },
   {
     title: "Certificación Inglés B1 EOI",
     href: "",
     download: false,
+    id: "Ingles_B1",
   },
   {
     title: "Grado Superior Desarrollo de Aplicaciones Multiplataforma",
     href: "",
     download: false,
+    id: "dam",
   },
 ];
