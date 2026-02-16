@@ -30,24 +30,28 @@ export const projects: Project[] = [
     period: "2023 - 2026",
     description: (
       <>
-        Proyecto estilo <strong>Headless</strong> (Web por un lado y App por
+        ► Proyecto estilo <strong>Headless</strong> (Web por un lado y App por
         otro) <br />
-        Consumo y creación de servicios en <strong>
+        ► Consumo y creación de servicios en <strong>
           Salesforce Commerce
         </strong>{" "}
         <br />
-        Uso de los servicios por defecto de <strong> SCAPI</strong>,{" "}
+        ► Uso de los servicios por defecto de <strong> SCAPI</strong>,{" "}
         <strong>OCAPI</strong> y <strong>custom APIs</strong> con{" "}
-        <strong>SCAPI.</strong> <br /> Manejo y customización de endpoints de{" "}
+        <strong>SCAPI.</strong> <br /> 
+        ► Manejo y customización de endpoints de{" "}
         <strong>SCAPI y OCAPI </strong> mediante <strong>Hooks.</strong> <br />
-        Gestión del <strong>Business Manager</strong> de Salesforce Commerce
+        ► Gestión del <strong>Business Manager</strong> de Salesforce Commerce
         Cloud (
         <strong>
           custom objects, system object types, catalogs, pricebooks{" "}
         </strong>
-        etc.). <br /> Creación de <strong>jobs.</strong> <br /> Creación y
+        etc.). <br /> 
+        ► Creación de <strong>jobs.</strong> <br /> 
+        ► Creación y
         modificación de <strong>Controllers</strong> para el paso de datos entre{" "}
-        <strong>Front y Back.</strong> <br /> Creación de documentación en
+        <strong>Front y Back.</strong> <br /> 
+        ► Creación de documentación en
         <strong>Confluence</strong>.
         <div className="flex flex-row gap-4 pt-5">
           <FaCloudDownloadAlt size={24} />
@@ -69,22 +73,22 @@ export const projects: Project[] = [
     period: "2022 - 2023",
     description: (
       <>
-        Creación de <strong>catridges</strong> para la gestión de los nuevos
+        ► Creación de <strong>catridges</strong> para la gestión de los nuevos
         desarrollos
         <br />
-        Gestión del <strong>Business Manager</strong> (Creacion de{" "}
+        ► Gestión del <strong>Business Manager</strong> (Creacion de{" "}
         <strong>Assets y Slots</strong>) <br />
-        Creacion de <strong>componentes web</strong>, <strong>diseño</strong> y{" "}
+        ► Creacion de <strong>componentes web</strong>, <strong>diseño</strong> y{" "}
         <strong>modificación de estilos</strong>
         existentes a partir de <strong>Figma</strong> <br />
-        Creacion y modificacion de <strong>Controllers</strong> para el paso de
+        ► Creacion y modificacion de <strong>Controllers</strong> para el paso de
         datos entre
         <strong> Front y Back</strong> <br />
-        Llamadas a <strong>servicios</strong> <br />
-        Creación de documentacion en <strong>Confluence</strong>
+        ► Llamadas a <strong>servicios</strong> <br />
+        ► Creación de documentacion en <strong>Confluence</strong>
         <br />
-        Creación <strong>archivos de traducción</strong> <br />
-        Creación <strong>Attrs personalizados (SOT&COT)</strong>
+        ► Creación <strong>archivos de traducción</strong> <br />
+        ► Creación <strong>Attrs personalizados (SOT&COT)</strong>
       </>
     ),
     id: "seidor",
@@ -94,11 +98,11 @@ export const projects: Project[] = [
     period: "2020 - 2022",
     description: (
       <>
-        Creacion de <strong>catridges</strong> para la gestión de los nuevos
+        ► Creacion de <strong>catridges</strong> para la gestión de los nuevos
         desarrollos <br />
-        Gestion del <strong>Business Manager</strong> (Creacion de{" "}
+        ► Gestion del <strong>Business Manager</strong> (Creacion de{" "}
         <strong>Assets y Slots</strong>) <br />
-        Creacion de <strong>componentes web</strong> y modificacion de{" "}
+        ► Creacion de <strong>componentes web</strong> y modificacion de{" "}
         <strong>estilos</strong> existentes
       </>
     ),
@@ -109,10 +113,10 @@ export const projects: Project[] = [
     period: "2018 - 2020",
     description: (
       <>
-        Desarrollo de <strong>componente</strong> y vista "iframe" <br />
-        Creación de <strong>documentos funcionales</strong> <br />
-        Integración de <strong>servicios Back</strong> <br />
-        Desarrollo Front-End con <strong>Angular 10</strong>
+        ► Desarrollo de <strong>componente</strong> y vista "iframe" <br />
+        ► Creación de <strong>documentos funcionales</strong> <br />
+        ► Integración de <strong>servicios Back</strong> <br />
+        ► Desarrollo Front-End con <strong>Angular 10</strong>
       </>
     ),
     id: "capgemini",

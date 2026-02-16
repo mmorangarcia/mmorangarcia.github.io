@@ -24,7 +24,7 @@ export default function Header() {
             <NameTitle label="Martin Morán García" />
           </span>
 
-          <div className="connect-buttons flex justify-between">
+          <div className="connect-buttons flex justify-between flex-row">
             <button
               className="hover:cursor-pointer"
               onClick={() =>
