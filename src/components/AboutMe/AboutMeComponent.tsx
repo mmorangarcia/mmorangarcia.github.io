@@ -21,13 +21,6 @@ export default function AboutMeComponent() {
             estoy formándome y retomando conocimientos de <b>React</b>. <br />
             Por último, en cuanto a metodologías, he trabajado con <b>Agile</b> y como controlador de
             versiones <b>GIT</b>.
-            {/* Desarrollador <b>Frontend</b> y <b>Backend</b> con 6 años de
-            experiencia en
-            <b> Salesforce Commerce Cloud</b>. <br />
-            Estoy siempre abierto al aprendizaje y a los retos, soy una persona
-            proactiva con ganas de seguir aprendiendo y practicando. <br />
-            Me gusta trabajar en un ambiente laboral amable y dinámico, donde podamos
-            aprender unos de otros. */}
           </span>
         </div>
       </section>
