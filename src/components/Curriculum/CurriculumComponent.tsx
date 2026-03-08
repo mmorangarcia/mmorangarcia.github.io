@@ -16,7 +16,6 @@ export default function CurriculumComponent() {
           <AboutMeComponent />
           <SkillsComponent skillsIcons={skills} />
           <ExperienceComponent />
-          {/* <CoursesComponent /> */}
         </div>
       </div>
     </>

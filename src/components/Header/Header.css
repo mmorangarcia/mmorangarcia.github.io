@@ -25,6 +25,8 @@
 .connect-buttons {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -33,5 +35,12 @@
     flex-direction: column;
     align-content: center;
     gap: 1rem;
+  }
+
+  .eb-button-container {
+    justify-content: center;
+  }
+  .links-bt {
+        width: 100%;
   }
 }

@@ -1,6 +1,7 @@
 import type { Project } from "@/types";
 import SpotlightCard from "./SpotlightCard";
 import { InView } from "../ui/in-view";
+import NameTitle from "../VariableProximityComponent/NameTitle";
 
 type ProjectProps = {
   project: Project;
@@ -21,9 +22,21 @@ export default function ProjectsCard({ project }: ProjectProps) {
             className="custom-spotlight-card"
             spotlightColor="rgba(0, 229, 255, 0.2)"
           >
-            <section className="flex flex-col 2xl:flex-row sm:gap-0 justify-between align-middle gap-4">
-              <h1 className="text-xl sm:text-xl lg:text-3xl pb-5 font-bold">{project.title}</h1>
-              <p className="text-xs sm:text-md">{project.period}</p>
+            <p className="text-xs sm:text-md">{project.period}</p>
+            <section className="">
+              <h1 className="text-xl sm:text-xl lg:text-3xl pb-5 font-bold">
+                <NameTitle label={project.title} />
+              </h1>
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-4 p-2 text-xs rounded-4xl bg-gray-800 border border-gray-500 font-bold"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </section>
             <span>{project.description}</span>
           </SpotlightCard>

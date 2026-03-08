@@ -13,6 +13,7 @@ export type Project = {
   description: ReactNode;
   period: string;
   id: string;
+  technologies: Array<string>
 }
 
 export type ExpData = {

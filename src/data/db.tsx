@@ -31,27 +31,19 @@ export const projects: Project[] = [
     description: (
       <>
         ► Proyecto estilo <strong>Headless</strong> (Web por un lado y App por
-        otro) <br />
-        ► Consumo y creación de servicios en <strong>
-          Salesforce Commerce
-        </strong>{" "}
-        <br />
-        ► Uso de los servicios por defecto de <strong> SCAPI</strong>,{" "}
-        <strong>OCAPI</strong> y <strong>custom APIs</strong> con{" "}
-        <strong>SCAPI.</strong> <br /> 
-        ► Manejo y customización de endpoints de{" "}
-        <strong>SCAPI y OCAPI </strong> mediante <strong>Hooks.</strong> <br />
-        ► Gestión del <strong>Business Manager</strong> de Salesforce Commerce
-        Cloud (
+        otro) <br />► Consumo y creación de servicios en{" "}
+        <strong>Salesforce Commerce</strong> <br />► Uso de los servicios por
+        defecto de <strong> SCAPI</strong>, <strong>OCAPI</strong> y{" "}
+        <strong>custom APIs</strong> con <strong>SCAPI.</strong> <br />► Manejo
+        y customización de endpoints de <strong>SCAPI y OCAPI </strong> mediante{" "}
+        <strong>Hooks.</strong> <br />► Gestión del{" "}
+        <strong>Business Manager</strong> de Salesforce Commerce Cloud (
         <strong>
           custom objects, system object types, catalogs, pricebooks{" "}
         </strong>
-        etc.). <br /> 
-        ► Creación de <strong>jobs.</strong> <br /> 
-        ► Creación y
+        etc.). <br />► Creación de <strong>jobs.</strong> <br />► Creación y
         modificación de <strong>Controllers</strong> para el paso de datos entre{" "}
-        <strong>Front y Back.</strong> <br /> 
-        ► Creación de documentación en
+        <strong>Front y Back.</strong> <br />► Creación de documentación en
         <strong>Confluence</strong>.
         <div className="flex flex-row gap-4 pt-5">
           <FaCloudDownloadAlt size={24} />
@@ -67,6 +59,21 @@ export const projects: Project[] = [
       </>
     ),
     id: "boolea",
+    technologies: [
+      "SFCC",
+      "OCAPI",
+      "SCAPI",
+      "SFRA",
+      "Headless Commerce",
+      "SCSS",
+      "JavaScript",
+      "HTML5",
+      "API RESTful",
+      "Postman",
+      "GIT",
+      "Business Manager",
+      "Jira",
+    ],
   },
   {
     title: "Full-Stack Salesforce Commerce Developer - Seidor",
@@ -75,23 +82,33 @@ export const projects: Project[] = [
       <>
         ► Creación de <strong>catridges</strong> para la gestión de los nuevos
         desarrollos
-        <br />
-        ► Gestión del <strong>Business Manager</strong> (Creacion de{" "}
-        <strong>Assets y Slots</strong>) <br />
-        ► Creacion de <strong>componentes web</strong>, <strong>diseño</strong> y{" "}
+        <br />► Gestión del <strong>Business Manager</strong> (Creacion de{" "}
+        <strong>Assets y Slots</strong>) <br />► Creacion de{" "}
+        <strong>componentes web</strong>, <strong>diseño</strong> y{" "}
         <strong>modificación de estilos</strong>
-        existentes a partir de <strong>Figma</strong> <br />
-        ► Creacion y modificacion de <strong>Controllers</strong> para el paso de
-        datos entre
-        <strong> Front y Back</strong> <br />
-        ► Llamadas a <strong>servicios</strong> <br />
-        ► Creación de documentacion en <strong>Confluence</strong>
-        <br />
-        ► Creación <strong>archivos de traducción</strong> <br />
-        ► Creación <strong>Attrs personalizados (SOT&COT)</strong>
+        existentes a partir de <strong>Figma</strong> <br />► Creacion y
+        modificacion de <strong>Controllers</strong> para el paso de datos entre
+        <strong> Front y Back</strong> <br />► Llamadas a{" "}
+        <strong>servicios</strong> <br />► Creación de documentacion en{" "}
+        <strong>Confluence</strong>
+        <br />► Creación <strong>archivos de traducción</strong> <br />►
+        Creación <strong>Attrs personalizados (SOT&COT)</strong>
       </>
     ),
     id: "seidor",
+    technologies: [
+      "SFCC",
+      "SCAPI",
+      "SFRA",
+      "SCSS",
+      "JavaScript",
+      "JQuery",
+      "HTML5",
+      "Postman",
+      "GIT",
+      "Business Manager",
+      "Jira",
+    ],
   },
   {
     title: "Front-End Salesforce Commerce Developer - Capgemini",
@@ -99,27 +116,49 @@ export const projects: Project[] = [
     description: (
       <>
         ► Creacion de <strong>catridges</strong> para la gestión de los nuevos
-        desarrollos <br />
-        ► Gestion del <strong>Business Manager</strong> (Creacion de{" "}
-        <strong>Assets y Slots</strong>) <br />
-        ► Creacion de <strong>componentes web</strong> y modificacion de{" "}
+        desarrollos <br />► Gestion del <strong>Business Manager</strong>{" "}
+        (Creacion de <strong>Assets y Slots</strong>) <br />► Creacion de{" "}
+        <strong>componentes web</strong> y modificacion de{" "}
         <strong>estilos</strong> existentes
       </>
     ),
     id: "capgemini-sf",
+    technologies: [
+      "SFCC",
+      "SFRA",
+      "SCSS",
+      "JavaScript",
+      "JQuery",
+      "HTML5",
+      "GIT",
+      "Business Manager",
+      "Jira",
+    ],
   },
   {
-    title: "Front-End Developer - Capgemini",
+    title: "Front-End Developer (varios proyectos) - Capgemini",
     period: "2018 - 2020",
     description: (
       <>
-        ► Desarrollo de <strong>componente</strong> y vista "iframe" <br />
-        ► Creación de <strong>documentos funcionales</strong> <br />
-        ► Integración de <strong>servicios Back</strong> <br />
-        ► Desarrollo Front-End con <strong>Angular 10</strong>
+        ► Desarrollo de <strong>componente</strong> y vista "iframe" <br />►
+        Creación de <strong>documentos funcionales</strong> <br />► Integración
+        de <strong>servicios Back</strong> <br />► Desarrollo componentes Front-End con
+        <strong>Angular 5 y posteriormente 7</strong><br />
+        ► <strong>Mantenimiento</strong> de app y corrección de errores <br />
+        ► Desarrollo de <strong>microservicios</strong>
       </>
     ),
     id: "capgemini",
+    technologies: [
+      "Angular 5/7",
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "GIT",
+      "Java",
+      "SpringBoot",
+      "Jira",
+    ],
   },
 ];
 

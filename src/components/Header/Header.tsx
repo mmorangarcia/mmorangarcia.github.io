@@ -27,28 +27,28 @@ export default function Header() {
           <div className="connect-buttons flex justify-between flex-row">
             <button
               className="hover:cursor-pointer"
+              onClick={() => window.open("/docs/cv_Martin_Moran.pdf", "_blank")}
+            >
+              <div
+                style={{ opacity: 0.8 }}
+                className="links-bt flex items-center gap-4 p-4 rounded-xl w-fit text-[--white] hover:cursor-pointer transition-all duration-300 hover:scale-110 italic  justify-center"
+              >
+                <FaCloudDownloadAlt size={30} />
+                <p className="text-md underline font-semibold transition duration-300 hover:text-slate-50">Descargar CV</p>
+              </div>
+            </button>
+            <button
+              className="links-bt hover:cursor-pointer"
               onClick={() =>
                 window.open("https://www.linkedin.com/in/mmorang/")
               }
             >
               <div
                 style={{ opacity: 0.8 }}
-                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[--white] hover:cursor-pointer"
+                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-full text-[--white] hover:cursor-pointer"
               >
                 <FaLinkedin size={30} />
                 <p className="text-xl">LinkedIn</p>
-              </div>
-            </button>
-            <button
-              className="hover:cursor-pointer"
-              onClick={() => window.open("/docs/cv_Martin_Moran.pdf", "_blank")}
-            >
-              <div
-                style={{ opacity: 0.8 }}
-                className="eb-button-container flex items-center gap-4 p-4 rounded-xl w-fit text-[--white] hover:cursor-pointer"
-              >
-                <FaCloudDownloadAlt size={30} />
-                <p className="text-md">Descargar CV</p>
               </div>
             </button>
           </div>
