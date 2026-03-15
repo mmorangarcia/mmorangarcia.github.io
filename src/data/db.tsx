@@ -142,10 +142,11 @@ export const projects: Project[] = [
       <>
         ► Desarrollo de <strong>componente</strong> y vista "iframe" <br />►
         Creación de <strong>documentos funcionales</strong> <br />► Integración
-        de <strong>servicios Back</strong> <br />► Desarrollo componentes Front-End con
-        <strong>Angular 5 y posteriormente 7</strong><br />
-        ► <strong>Mantenimiento</strong> de app y corrección de errores <br />
-        ► Desarrollo de <strong>microservicios</strong>
+        de <strong>servicios Back</strong> <br />► Desarrollo componentes
+        Front-End con
+        <strong>Angular 5 y posteriormente 7</strong>
+        <br />► <strong>Mantenimiento</strong> de app y corrección de errores{" "}
+        <br />► Desarrollo de <strong>microservicios</strong>
       </>
     ),
     id: "capgemini",
@@ -163,6 +164,12 @@ export const projects: Project[] = [
 ];
 
 export const courses: ExpData[] = [
+  {
+    title: "React y TypeScript - La Guía Completa 58h",
+    href: "/docs/curso_React_58h.pdf",
+    download: true,
+    id: "ReactTs58",
+  },
   {
     title: "Salesforce Commerce Cloud 303 - POD Alerts Cartridge",
     href: "/docs/salesforceUdemy2.pdf",
