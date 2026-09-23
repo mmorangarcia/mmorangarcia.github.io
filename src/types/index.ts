@@ -22,3 +22,21 @@ export type ExpData = {
   download: boolean;
   id: string;
 }
+
+
+export type Stat = {
+  value: string;
+  label: string;
+}
+
+export type SkillGroup = {
+  title: string;
+  items: Array<string>
+}
+
+export type AboutMe = {
+  headline: string;
+  description: ReactNode;
+  stats: Array<Stat>;
+  skillGroups: Array<SkillGroup>;
+}

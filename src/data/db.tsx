@@ -1,4 +1,4 @@
-import type { ExpData, Icon } from "@/types";
+import type { AboutMe, ExpData, Icon } from "@/types";
 import type { Project } from "../types";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
@@ -293,3 +293,36 @@ export const certifications: ExpData[] = [
     id: "dam",
   },
 ];
+
+export const aboutMe: AboutMe = {
+  headline: "Desarrollador Frontend y Backend especializado en Salesforce Commerce Cloud",
+  description: (
+    <>
+      Soy una persona proactiva, con ganas de seguir aprendiendo y creciendo.
+      Me gusta trabajar en equipos amables y dinámicos donde siempre haya algo
+      que aprender y perfeccionar.
+    </>
+  ),
+  stats: [
+    { value: "+8", label: "años en total como desarrollador" },
+    { value: "+6", label: "años en Salesforce Commerce" },
+  ],
+  skillGroups: [
+    {
+      title: "Salesforce",
+      items: ["SFRA", "SCAPI", "OCAPI", "REST APIs custom", "Business Manager", "Page Designer", "Integraciones externas"],
+    },
+    {
+      title: "Código",
+      items: ["HTML", "CSS", "SCSS", "JavaScript", "Node", "ISML", "jQuery", "React (aprendiendo)"],
+    },
+    {
+      title: "IA",
+      items: ["Claude", "Copilot", "IA generativa", "Prompt engineering"],
+    },
+    {
+      title: "Metodología y herramientas",
+      items: ["Agile", "Git", "Bitbucket"],
+    },
+  ],
+};
