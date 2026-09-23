@@ -12,7 +12,6 @@ export const skillsBase: Icon[] = [
   { src: "", alt: "Bootstrap", name: "bootstrap", title: "Bootstrap" },
   { src: "", alt: "CSS3", name: "css", title: "CSS3" },
   { src: "", alt: "HTML5", name: "html5", title: "HTML5" },
-  { src: "", alt: "React", name: "react", title: "React" },
   { src: "", alt: "Jquery", name: "jquery", title: "Jquery" },
   { src: "", alt: "Postman", name: "postman", title: "Postman" },
   { src: "", alt: "SASS", name: "sass", title: "SASS" },
@@ -25,6 +24,42 @@ export const skills: Icon[] = skillsBase.map((skill) => ({
 }));
 
 export const projects: Project[] = [
+  {
+    title: "Full-Stack Salesforce Commerce Developer - Viseo Iberia",
+    period: "2026 - Ahora",
+    description: (
+      <>
+        ► Proyecto modelo <strong>SFRA</strong><br />
+        ► Integraciones con <strong>Marketing Cloud, CRM y OMS</strong><br />
+        ► Consumo de servicios custom externos <br />
+        ► Gestión del <strong>Business Manager</strong> de Salesforce Commerce Cloud (
+        <strong>
+          custom objects, system object types, catalogs, pricebooks{" "}
+        </strong>
+        etc.). <br />
+        ► Adaptación flujo completo de la <strong>pasarela de pago</strong> para incluir metodos de envío custom <br />
+        ► Creación y adaptación de <strong>Controllers</strong> para el paso de datos entre <strong>Front y Back</strong><br />
+        ► Creación componentes custom <strong>Page Designer</strong><br />
+      </>
+    ),
+    id: "viseo",
+    technologies: [
+      "SFCC",
+      "OCAPI",
+      "SCAPI",
+      "SFRA",
+      "Headless Commerce",
+      "SCSS",
+      "JavaScript",
+      "HTML5",
+      "API RESTful",
+      "Postman",
+      "GIT",
+      "Business Manager",
+      "Jira",
+      "Page Designer"
+    ],
+  },
   {
     title: "Full-Stack Salesforce Commerce Developer - Boolea",
     period: "2023 - 2026",

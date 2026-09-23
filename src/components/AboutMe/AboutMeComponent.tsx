@@ -7,20 +7,21 @@ export default function AboutMeComponent() {
         <h1 className="about-me-title">Sobre Mi</h1>
         <div className="about-me-container">
           <span className="text-1xl text-(--black)">
-            Desarrollador <b>Frontend</b> y <b>Backend</b> con varios años de
-            experiencia en Salesforce Commerce. <br />
-            Soy una persona proactiva con ganas de seguir aprendiendo y
-            practicando. Me gusta trabajar en un ambiente laboral amable y
-            dinámico donde podamos aprender unos de otros. <br />
+            Desarrollador <b>Frontend</b> y <b>Backend</b> con +6 años de
+            experiencia en Salesforce Commerce Cloud y +8 en total como desarrollador. <br />
+            Soy una persona proactiva con ganas de seguir aprendiendo y creciendo.
+            Me gusta trabajar en un ambiente laboral amable y
+            dinámico donde siempre se pueda aprender y perfeccionar. <br />
             Sobre mis conocimientos: tengo experiencia con <b>SCAPI</b>, <b>OCAPI</b> para el desarrollo
             de <b>REST APIs custom de Salesforce</b>. <br />
             En la parte web conozco y tengo experiencia con la tecnología <b>SFRA</b> y la gestión de sandboxes con <b>
-            Business Manager</b>. <br />
+            Business Manager</b> ademas de integración servicios externos.<br />
             Por otro lado más orientado a código tengo
-            experiencia con <b>HTML, SCSS, CSS, Javascript, Node, ISML, JQuery</b> y
-            estoy formándome y retomando conocimientos de <b>React</b>. <br />
+            experiencia con <b>HTML, SCSS, CSS, Javascript, Node, ISML, JQuery, Page Designer</b> y
+            estoy formándome y aprendiendo <b>React</b>. <br />
+            En la parte de <b>IA</b>, llevo tiempo trabajando con <b>Claude y Copilot</b>, aprendiendo sobre <b>IA generativa y optimización de prompts. </b><br /> 
             Por último, en cuanto a metodologías, he trabajado con <b>Agile</b> y como controlador de
-            versiones <b>GIT</b>.
+            versiones tengo experiencia con <b>GIT y BitBucket</b>.
           </span>
         </div>
       </section>
